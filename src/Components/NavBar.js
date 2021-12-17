@@ -9,6 +9,7 @@ import {
     Collapse
 } from 'reactstrap';
 import "../styles/NavBar.css"
+import logo from '../assets/wurklo-logo-website.png'
 
 function NavBar() {
     const [toggleNav, setToggleNav] = useState(false);
@@ -19,7 +20,7 @@ function NavBar() {
                 <div className="col">
                     <Navbar sticky className='' color="clear" dark expand="xl">
                         <NavbarBrand className='fs-1' href="/">
-                            Wurklo
+                            <img className='logo-image' src={logo} alt="Wurklo" />
                         </NavbarBrand>
                         <NavbarToggler className='text-white' onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
                         <Collapse isOpen={toggleNav} navbar>

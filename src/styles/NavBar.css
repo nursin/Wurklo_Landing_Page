@@ -4,3 +4,8 @@
     cursor: pointer;
 }
 
+.logo-image {
+    height: 5rem;
+    object-fit: contain;
+
+}

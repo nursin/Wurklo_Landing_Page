@@ -5,15 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(209, 209, 209);
-  overflow: hidden !important; /* hides whitespace to right of screen caused by bootstrap containers */
+  background-color: rgb(31, 21, 77);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.progress-bar-circle {
-  overflow: hidden;
 }
