@@ -18,7 +18,7 @@ function NavBar() {
         <div className='container-fluid g-0 g-sm-4'>
             <div className="row g-0">
                 <div className="col d-sm-flex justify-content-sm-center">
-                    <Navbar className='sticky-top' color="clear" dark expand="xl">
+                    <Navbar sticky="top" className='' color="clear" dark expand="xl">
                         <NavbarBrand className='fs-1' href="/">
                             <img className='logo-image' src={logo} alt="Wurklo" />
                         </NavbarBrand>
