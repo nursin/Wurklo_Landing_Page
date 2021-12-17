@@ -2,8 +2,14 @@ import React, { useState } from 'react'
 import {
     Navbar,
     NavbarToggler,
-    NavbarBrand
+    NavbarBrand,
+    NavLink,
+    NavItem,
+    Nav,
+    Collapse
 } from 'reactstrap';
+import "../styles/NavBar.css"
+
 function NavBar() {
     const [toggleNav, setToggleNav] = useState(false);
 
@@ -12,31 +18,32 @@ function NavBar() {
             <div className="row g-0">
                 <div className="col">
                     <Navbar className='text-white' color="clear" dark expand="xl">
-                        <NavbarBrand className='ps-2 mx-auto' href="/">
+                        <NavbarBrand className='ps-2 fs-1' href="/">
+                            Wurklo
                         </NavbarBrand>
-                        <NavbarToggler hidden onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
-                        {/* <Collapse isOpen={toggleNav} navbar>
+                        <NavbarToggler left onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
+                        <Collapse isOpen={toggleNav} navbar>
                             <Nav className="ml-auto" navbar>
-                                <NavItem>
-                                    <NavLink href="/tokenomics">Tokenomics</NavLink>
+                                <NavItem className='px-2'>
+                                    <NavLink className='p-2' href="/tokenomics">Tokenomics</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink href="/roadmap">Roadmap</NavLink>
+                                <NavItem className='px-2'>
+                                    <NavLink className='p-2' href="/roadmap">Roadmap</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink href="/solscan">Team</NavLink>
+                                <NavItem className='px-2'>
+                                    <NavLink className='p-2' href="/solscan">Team</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink href="/solscan">Wurklo</NavLink>
+                                <NavItem className='px-2'>
+                                    <NavLink className='p-2' href="/solscan">Wurklo</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink href="/whitepaper">Whitepaper</NavLink>
+                                <NavItem className='px-2'>
+                                    <NavLink className='p-2' href="/whitepaper">Whitepaper</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink href="/contactus">Contact Us</NavLink>
+                                <NavItem className='px-2'>
+                                    <NavLink className='p-2' href="/contactus">Contact Us</NavLink>
                                 </NavItem>
                             </Nav>
-                        </Collapse> */}
+                        </Collapse>
                     </Navbar>
                 </div>
             </div>

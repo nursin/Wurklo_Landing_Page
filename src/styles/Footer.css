@@ -1,56 +1,56 @@
 .facebook:hover {
     color: #4267B2 !important;
-    transition: 150ms transform ease-in !important;
-    transform: scale(1.88) !important;
+    transition: 300ms transform ease-in !important;
+    transform: scale(1.50) !important;
     cursor: pointer;
 }
 
 .twitter:hover {
     color: #1DA1F2 !important;
-    transition: 150ms transform ease-in !important;
-    transform: scale(1.88) !important;
+    transition: 300ms transform ease-in !important;
+    transform: scale(1.50) !important;
     cursor: pointer;
 }
 
 .telegram:hover {
     color: #0088CC !important;
-    transition: 150ms transform ease-in !important;
-    transform: scale(1.88) !important;
+    transition: 300ms transform ease-in !important;
+    transform: scale(1.50) !important;
     cursor: pointer;
 }
 
 .reddit:hover {
     color: #FF4500 !important;
-    transition: 150ms transform ease-in !important;
-    transform: scale(1.88) !important;
+    transition: 300ms transform ease-in !important;
+    transform: scale(1.50) !important;
     cursor: pointer;
 }
 
 .instagram:hover {
     color: #F77737 !important;
-    transition: 150ms transform ease-in !important;
-    transform: scale(1.88) !important;
+    transition: 300ms transform ease-in !important;
+    transform: scale(1.50) !important;
     cursor: pointer;
 }
 
 .discord:hover {
     color: #5865F2 !important;
-    transition: 150ms transform ease-in !important;
-    transform: scale(1.88) !important;
+    transition: 300ms transform ease-in !important;
+    transform: scale(1.50) !important;
     cursor: pointer;
 }
 
 .youtube:hover {
     color: #FF0000 !important;
-    transition: 150ms transform ease-in !important;
-    transform: scale(1.88) !important;
+    transition: 300ms transform ease-in !important;
+    transform: scale(1.50) !important;
     cursor: pointer;
 }
 
 .tiktok:hover {
     color: #EE1D52 !important;
-    transition: 150ms transform ease-in !important;
-    transform: scale(1.88) !important;
+    transition: 300ms transform ease-in !important;
+    transform: scale(1.50) !important;
     cursor: pointer;
 }
 

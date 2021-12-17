@@ -1,4 +1,5 @@
-.nav-link {
+.nav-link:hover {
     color: white !important;
-    padding: 10px;
+    transition: 400ms color ease-in;
+    cursor: pointer;
 }
