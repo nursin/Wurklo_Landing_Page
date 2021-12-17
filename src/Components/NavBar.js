@@ -15,7 +15,7 @@ function NavBar() {
     const [toggleNav, setToggleNav] = useState(false);
 
     return (
-        <div className='container-fluid g-1 g-sm-4'>
+        <div className='container-fluid g-0 g-sm-4'>
             <div className="row g-0">
                 <div className="col">
                     <Navbar sticky className='' color="clear" dark expand="xl">
@@ -24,7 +24,7 @@ function NavBar() {
                         </NavbarBrand>
                         <NavbarToggler className='text-white' onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
                         <Collapse isOpen={toggleNav} navbar>
-                            <Nav className="ml-0" navbar>
+                            <Nav className="ms-2 w-50" navbar>
                                 <NavItem className='px-sm-2'>
                                     <NavLink className='p-sm-2' href="/">Tokenomics</NavLink>
                                 </NavItem>
