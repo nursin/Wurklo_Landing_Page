@@ -3,3 +3,7 @@
     transition: 400ms color ease-in;
     cursor: pointer;
 }
+
+.navbar-light .navbar-toggler-icon  {
+    color: white;
+}

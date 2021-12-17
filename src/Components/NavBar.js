@@ -18,29 +18,29 @@ function NavBar() {
             <div className="row g-0">
                 <div className="col">
                     <Navbar className='text-white' color="clear" dark expand="xl">
-                        <NavbarBrand className='ps-2 fs-1' href="/">
+                        <NavbarBrand className='fs-1' href="/">
                             Wurklo
                         </NavbarBrand>
-                        <NavbarToggler left onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
+                        <NavbarToggler className='text-white' onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
                         <Collapse isOpen={toggleNav} navbar>
-                            <Nav className="ml-auto" navbar>
-                                <NavItem className='px-2'>
-                                    <NavLink className='p-2' href="/tokenomics">Tokenomics</NavLink>
+                            <Nav className="ml-0" navbar>
+                                <NavItem className='px-sm-2'>
+                                    <NavLink className='p-sm-2' href="/">Tokenomics</NavLink>
                                 </NavItem>
-                                <NavItem className='px-2'>
-                                    <NavLink className='p-2' href="/roadmap">Roadmap</NavLink>
+                                <NavItem className='px-sm-2'>
+                                    <NavLink className='p-sm-2' href="/">Roadmap</NavLink>
                                 </NavItem>
-                                <NavItem className='px-2'>
-                                    <NavLink className='p-2' href="/solscan">Team</NavLink>
+                                <NavItem className='px-sm-2'>
+                                    <NavLink className='p-sm-2' href="/">Team</NavLink>
                                 </NavItem>
-                                <NavItem className='px-2'>
-                                    <NavLink className='p-2' href="/solscan">Wurklo</NavLink>
+                                <NavItem className='px-sm-2'>
+                                    <NavLink className='p-sm-2' href="/">Wurklo</NavLink>
                                 </NavItem>
-                                <NavItem className='px-2'>
-                                    <NavLink className='p-2' href="/whitepaper">Whitepaper</NavLink>
+                                <NavItem className='px-sm-2'>
+                                    <NavLink className='p-sm-2' href="/">Whitepaper</NavLink>
                                 </NavItem>
-                                <NavItem className='px-2'>
-                                    <NavLink className='p-2' href="/contactus">Contact Us</NavLink>
+                                <NavItem className='px-sm-2'>
+                                    <NavLink className='p-sm-2' href="/">Contact Us</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>
