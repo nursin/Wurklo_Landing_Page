@@ -17,9 +17,9 @@ function NavBar() {
         <div className='container-fluid g-1 g-sm-4'>
             <div className="row g-0">
                 <div className="col">
-                    <Navbar sticky className='text-white' color="clear" dark expand="xl">
+                    <Navbar sticky className='' color="clear" dark expand="xl">
                         <NavbarBrand className='fs-1' href="/">
-                            <img src="../assets/wurklo-logo-website.png" alt="Wurlko" />
+                            Wurklo
                         </NavbarBrand>
                         <NavbarToggler className='text-white' onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
                         <Collapse isOpen={toggleNav} navbar>
