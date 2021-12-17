@@ -6,10 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(209, 209, 209);
-  overflow-x: hidden; /* hides whitespace to right of screen caused by bootstrap containers */
+  overflow: hidden !important; /* hides whitespace to right of screen caused by bootstrap containers */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.progress-bar-circle {
+  overflow: hidden;
 }

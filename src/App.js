@@ -6,12 +6,12 @@ function App() {
   return (
     <div className='container-fluid app'>
       <div className="row">
-        <div className="col g-0">
+        <div className="col">
           <NavBar />
         </div>
       </div>
       <div className="row fixed-bottom">
-        <div className="col g-0">
+        <div className="col">
           <Footer />
         </div>
       </div>

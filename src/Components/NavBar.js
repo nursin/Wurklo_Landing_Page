@@ -9,13 +9,12 @@ function NavBar() {
 
     return (
         <div className='container-fluid'>
-            <div className="row">
+            <div className="row g-0">
                 <div className="col">
                     <Navbar className='text-white' color="clear" dark expand="xl">
-                        <NavbarBrand className='ps-2' href="/">
-                            <h3>Wurklo</h3>
+                        <NavbarBrand className='ps-2 mx-auto' href="/">
                         </NavbarBrand>
-                        <NavbarToggler onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
+                        <NavbarToggler hidden onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
                         {/* <Collapse isOpen={toggleNav} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
