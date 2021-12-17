@@ -14,7 +14,7 @@ function NavBar() {
     const [toggleNav, setToggleNav] = useState(false);
 
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid g-1 g-sm-4'>
             <div className="row g-0">
                 <div className="col">
                     <Navbar className='text-white' color="clear" dark expand="xl">
