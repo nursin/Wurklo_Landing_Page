@@ -1,12 +1,8 @@
 import React, { useState } from 'react'
 import {
-    Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink
+    NavbarBrand
 } from 'reactstrap';
 function NavBar() {
     const [toggleNav, setToggleNav] = useState(false);
