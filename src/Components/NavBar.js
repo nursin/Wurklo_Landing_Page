@@ -17,12 +17,12 @@ function NavBar() {
     return (
         <div className='container-fluid g-0 g-sm-4'>
             <div className="row g-0">
-                <div className="col d-sm-flex justify-content-sm-center">
-                    <Navbar sticky="top" className='' color="clear" dark expand="xl">
+                <div className="col d-lg-flex justify-content-lg-center">
+                    <Navbar sticky="top" className='' color="clear" dark expand="lg">
                         <NavbarBrand className='fs-1' href="/">
                             <img className='logo-image' src={logo} alt="Wurklo" />
                         </NavbarBrand>
-                        <NavbarToggler className='text-white' onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
+                        <NavbarToggler className='text-white me-2' onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
                         <Collapse isOpen={toggleNav} navbar>
                             <Nav className="ms-2" navbar>
                                 <NavItem className='px-sm-2'>
