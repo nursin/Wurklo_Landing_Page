@@ -8,7 +8,7 @@ function Footer() {
     return (
         <div className='container'>
             <div className="row">
-                <div className="col col-sm-7 mx-auto mb-5 text-center">
+                <div className="col col-sm-7 mx-auto mb-3 text-center">
                     <a className="social-icons px-1 px-sm-4" href="https://t.me/+-tLGe4BSh1pkODYx"><FontAwesomeIcon className='text-white fs-1 telegram' icon={faTelegram}></FontAwesomeIcon></a>{' '}
                     <a className="social-icons px-1 px-sm-4" href="https://www.facebook.com/Wurklo"><FontAwesomeIcon className='text-white fs-1 facebook' icon={faFacebook}></FontAwesomeIcon></a>{' '}
                     <a className="social-icons px-1 px-sm-4" href="https://twitter.com/Wurklo"><FontAwesomeIcon className='text-white fs-1 twitter' icon={faTwitter}></FontAwesomeIcon></a>{' '}
