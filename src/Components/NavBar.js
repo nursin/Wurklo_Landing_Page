@@ -10,6 +10,7 @@ import {
 } from 'reactstrap';
 import "../styles/NavBar.css"
 import logo from '../assets/wurklo-logo-website.png'
+import { Button } from '@material-ui/core'
 
 function NavBar() {
     const [toggleNav, setToggleNav] = useState(false);
@@ -26,23 +27,30 @@ function NavBar() {
                         <Collapse isOpen={toggleNav} navbar>
                             <Nav className="ms-2" navbar>
                                 <NavItem className='px-sm-2'>
-                                    <NavLink className='p-sm-2' href="/">Tokenomics</NavLink>
+                                    <NavLink className='p-sm-2' href="/">Products</NavLink>
                                 </NavItem>
                                 <NavItem className='px-sm-2'>
                                     <NavLink className='p-sm-2' href="/">Roadmap</NavLink>
                                 </NavItem>
                                 <NavItem className='px-sm-2'>
-                                    <NavLink className='p-sm-2' href="/">Team</NavLink>
+                                    <NavLink className='p-sm-2' href="/">Tokenomics</NavLink>
                                 </NavItem>
                                 <NavItem className='px-sm-2'>
-                                    <NavLink className='p-sm-2' href="/">Wurklo</NavLink>
+                                    <NavLink className='p-sm-2' href="/">Validation</NavLink>
                                 </NavItem>
                                 <NavItem className='px-sm-2'>
-                                    <NavLink className='p-sm-2' href="/">Whitepaper</NavLink>
+                                    <NavLink className='p-sm-2' href="/">About</NavLink>
                                 </NavItem>
                                 <NavItem className='px-sm-2'>
-                                    <NavLink className='p-sm-2' href="/">Contact Us</NavLink>
+                                    <NavLink className='p-sm-2' href="/">Store</NavLink>
                                 </NavItem>
+                                <NavItem className='px-sm-2'>
+                                    <NavLink className='p-sm-2' href="/">Contact</NavLink>
+                                </NavItem>
+                                <NavItem className='px-sm-2'>
+                                    <NavLink className='p-sm-2' href="/"><Button className='bg-primary text-white' variant="contained">Connect</Button></NavLink>
+                                </NavItem>
+                                
                             </Nav>
                         </Collapse>
                     </Navbar>
