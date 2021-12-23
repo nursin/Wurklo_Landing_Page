@@ -25,7 +25,7 @@ function NavBar() {
                         </NavbarBrand>
                         <NavbarToggler className='text-white me-2' onClick={() => setToggleNav(!toggleNav)} onBlur={() => setToggleNav(false)} />
                         <Collapse isOpen={toggleNav} navbar>
-                            <Nav className="ms-2" navbar>
+                            <Nav className="ms-2 mt-sm-2" navbar>
                                 <NavItem className='px-sm-2'>
                                     <NavLink className='p-sm-2' href="/">Products</NavLink>
                                 </NavItem>
@@ -47,10 +47,9 @@ function NavBar() {
                                 <NavItem className='px-sm-2'>
                                     <NavLink className='p-sm-2' href="/">Contact</NavLink>
                                 </NavItem>
-                                <NavItem className='px-sm-2'>
+                                <NavItem className='px-sm-2 connect'>
                                     <NavLink className='p-sm-2' href="/"><Button className='bg-primary text-white' variant="contained">Connect</Button></NavLink>
                                 </NavItem>
-                                
                             </Nav>
                         </Collapse>
                     </Navbar>

@@ -8,3 +8,7 @@
     height: 5rem;
     object-fit: contain;
 }
+
+.connect {
+    margin-top: -4px;
+}
